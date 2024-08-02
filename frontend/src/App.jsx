@@ -23,6 +23,7 @@ const App = () => {
       <div>
         <nav>
           <Link to="/">Home</Link>
+          <Link to="/create">Create</Link>
           {isLoggedIn ? (
             <>
               <Link to="/dashboard">Dashboard</Link>
